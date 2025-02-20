@@ -35,7 +35,7 @@
                     <div class="text-sm font-medium flex flex-row w-full">
                         <div class="w-1/3"></div>
                         <div class="w-1/3"></div>
-                        <div><img class="w-28" src="{{ asset('assets/photos/logo.svg') }}"></div>
+                        <div><img class="w-20" src="{{ asset('assets/photos/logo.png') }}"></div>
                     </div>
 
                     <div class="w-full mt-4">

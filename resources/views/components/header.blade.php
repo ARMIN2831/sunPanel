@@ -5,7 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>sunPanel</title>
+    <link rel="icon" href="{{ asset('favicon.ico') }}">
     {{--alpine js--}}
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
     {{--tailwind css--}}
@@ -171,14 +172,13 @@
             <div class="w-[85%] h-full flex justify-between font-vazir">
                 <div class="flex flex-row gap-4 justify-center items-center">
                     {{--<div class="text-xs font-semibold py-2.5 px-3.5 rounded-md cursor-pointer text-neutral-600 bg-zinc-100 hover:bg-zinc-200 transition transition-all duration-200">ورود | ثبت نام</div>--}}
-                    <img class="w-28 brightness-[300%]" src="{{ asset('assets/photos/logo.svg') }}">
+                    <img class="w-20 brightness-[300%]" src="{{ asset('assets/photos/logo.png') }}">
                 </div>
                 <div class="flex flex-row gap-8 justify-center items-center text-sm font-semibold h-fll text-white">
                     <div class="cursor-pointer header-menu-item">تماس با ما</div>
-                    <div class="cursor-pointer header-menu-item">معرفی</div>
-                    <div class="cursor-pointer header-menu-item">مقالات</div>
-                    <div class="cursor-pointer header-menu-item">فروشگاه</div>
-                    <div class="cursor-pointer header-menu-item">پروژه‌ها</div>
+                    <div class="cursor-pointer header-menu-item">سوابق</div>
+                    <div class="cursor-pointer header-menu-item">محصولات و خدمات</div>
+                    <div class="cursor-pointer header-menu-item">معرفی شرکت</div>
                     {{--<div class="w-28 ml-10 cursor-pointer">
 
                     </div>--}}
